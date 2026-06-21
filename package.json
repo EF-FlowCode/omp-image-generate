@@ -1,0 +1,44 @@
+{
+  "name": "omp-image-generate",
+  "version": "1.0.2",
+  "description": "omp 文生图扩展 — 调用图片生成模型，根据终端后端渲染和保存图片",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/00lllooolll00/omp-image-generate.git"
+  },
+  "homepage": "https://github.com/00lllooolll00/omp-image-generate",
+  "bugs": {
+    "url": "https://github.com/00lllooolll00/omp-image-generate/issues"
+  },
+  "keywords": [
+    "omp",
+    "oh-my-pi",
+    "plugin",
+    "image",
+    "generate"
+  ],
+  "type": "module",
+  "main": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "omp": {
+    "extensions": [
+      "./dist/index.js"
+    ]
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc --noEmit",
+    "prepack": "npm run build"
+  },
+  "dependencies": {
+    "typebox": "^1.1.39"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-ai": "^0.78.0",
+    "@earendil-works/pi-coding-agent": "^0.75.4",
+    "typescript": "^6.0.3"
+  }
+}

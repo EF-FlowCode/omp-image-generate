@@ -1,0 +1,33 @@
+# Node dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+/dist/
+**/dist/
+
+# Rust build outputs
+/target/
+**/target/
+
+# Packaged release artifacts
+*.tgz
+
+# Local release output
+release-artifacts/
+
+# Local OMP runtime state
+.omp/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+.codegraph
