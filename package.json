@@ -5,11 +5,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/00lllooolll00/omp-image-generate.git"
+    "url": "git+https://github.com/EF-FlowCode/omp-image-generate.git"
   },
-  "homepage": "https://github.com/00lllooolll00/omp-image-generate",
+  "homepage": "https://github.com/EF-FlowCode/omp-image-generate",
   "bugs": {
-    "url": "https://github.com/00lllooolll00/omp-image-generate/issues"
+    "url": "https://github.com/EF-FlowCode/omp-image-generate/issues"
   },
   "keywords": [
     "omp",
