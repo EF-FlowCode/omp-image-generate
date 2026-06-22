@@ -68,7 +68,7 @@ omp-image-generate/
 ### 通过 OMP 安装（推荐）
 
 ```bash
-omp install omp-image-generate
+omp plugin install omp-image-generate
 ```
 
 安装完成后在 OMP 里执行：
@@ -95,6 +95,14 @@ cp -R dist ~/.omp/extensions/omp-image-generate/
 cd ~/.omp/extensions/omp-image-generate
 npm install --omit=dev
 ```
+
+## 卸载
+
+```bash
+omp plugin uninstall omp-image-generate
+```
+
+卸载后运行 `/reload-plugins`。
 
 ## 开发
 
